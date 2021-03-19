@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&display=swap");
+
+body {
+  font-family: "Andika", sans-serif;
+  background-color: #1f2022;
+}
+
+.searchBar {
+  border-radius: 99999px;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.fontColor {
+  color: #bbbcbe !important;
+}
+
+.fontRating {
+  color: #b8b8b8 !important;
+}
+
+.containerSection {
+  padding-bottom: 5rem;
+}
+
+.options {
+  display: flex;
+  list-style-type: none;
+  background-color: #2f3032;
+  border-radius: 50px;
+  width: 90%;
+  position: fixed;
+  padding: 0px;
+  bottom: -12px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-bottom: 1.7rem;
+  overflow: hidden;
+}
+
+.optionItem {
+  padding: 1rem 1.5rem;
+
+  color: #ffffff;
+  justify-content: space-around;
+  display: inline-flex;
+  text-decoration: none;
+  border-top: 1px solid transparent;
+}
+
+.optionItem:hover {
+  border-top: 1px solid #f1e17f;
+  color: #f1e17f;
+}
+
+/* profile css starts here  */
+
+.cardBgColor {
+  background-color: #f1e17f;
+  border-radius: 32px;
+  margin-bottom: 5rem;
+}
+
+.profileImg {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-left: auto;
+  border-radius: 90px;
+}
+
+.itemDetails {
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.profileText {
+  padding: 6px;
+}
+
+.barCode {
+  height: 32px;
+  width: 32px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #a8aaaa;
+}
